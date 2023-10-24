@@ -8,11 +8,12 @@ from tkinter import messagebox, simpledialog
 from ttkthemes import ThemedTk
 from tkinter import filedialog
 
-import win32print
+from win32 import win32print
 import win32ui
 import openpyxl
 from openpyxl import Workbook
 
+# pip install pywin32
 # pip install openpyxl
 
 edit_mode = True
